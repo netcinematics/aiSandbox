@@ -1,7 +1,7 @@
 {
-  "homepage": "https://netcinematics.github.io/aWordaGami/",
-  "name": "aWordaGami",
-  "version": "0.1.0",
+  "homepage": "https://netcinematics.github.io/aiSandbox/",
+  "name": "aiSandbox",
+  "version": "0.2.0",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
