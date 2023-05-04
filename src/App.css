@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  border-radius: 13px;
+  font-family: monospace;
+}
+
+
+.App-header {
+  padding: 0.5em 0;
+  background-color: black;
+  color: cornflowerblue;
+  font-size: calc(10px + 2vmin);
+  padding-top: 1em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.promptSELECTED{ 
+  border: 2px solid green !important;
+  background-color: black !important;
+ }
+
+ .wordCORRECT{ 
+  border: 2px solid skyblue !important;
+  box-shadow: #05f68e 0px 0px 6px 1px !important;
+ }
+ 
+ .wordWRONG{ 
+  border: 2px solid red !important;
+}
+
+.wordCURSOR{
+  border: 2px solid green !important;
+ }
+
+ .btnHover{
+  border: 2px solid skyblue !important;
+  box-shadow: #05f68e 0px 0px 6px 1px !important;
+ }
+
