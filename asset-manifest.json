@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/aWordaGami/static/css/main.3b861f15.css",
-    "main.js": "/aWordaGami/static/js/main.44cfc68e.js",
-    "static/media/tictactoe1.png": "/aWordaGami/static/media/tictactoe1.f27252d4847e02d63157.png",
-    "index.html": "/aWordaGami/index.html",
-    "main.3b861f15.css.map": "/aWordaGami/static/css/main.3b861f15.css.map",
-    "main.44cfc68e.js.map": "/aWordaGami/static/js/main.44cfc68e.js.map"
+    "main.css": "/aiSandbox/static/css/main.3b861f15.css",
+    "main.js": "/aiSandbox/static/js/main.1cae436e.js",
+    "static/media/tictactoe1.png": "/aiSandbox/static/media/tictactoe1.f27252d4847e02d63157.png",
+    "index.html": "/aiSandbox/index.html",
+    "main.3b861f15.css.map": "/aiSandbox/static/css/main.3b861f15.css.map",
+    "main.1cae436e.js.map": "/aiSandbox/static/js/main.1cae436e.js.map"
   },
   "entrypoints": [
     "static/css/main.3b861f15.css",
-    "static/js/main.44cfc68e.js"
+    "static/js/main.1cae436e.js"
   ]
 }
