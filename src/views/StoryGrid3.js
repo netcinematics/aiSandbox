@@ -2,6 +2,7 @@ import "../styles.css";
 import LangData from '../data/SocialPhraseCLM'
 import { useState, useEffect } from 'react';
 import TokenFrame from "./TokenFrame1";
+import StoryGrid2 from './StoryGrid2';
 
 export default function StoryGrid3 () {
 let [rootsARR, setRootsARR] = useState([]);
@@ -97,9 +98,9 @@ function PageView (){
         display:'flex',width:'100%',flexDirection:'column',marginRight:'1.444em'}}>
         <header style={{width:'100%',display:'flex',justifyContent:'space-between',
             padding:'0.666em'}}>
-            <button style={{width:'4em'}} 
+            <button style={{width:'4em',borderRadius:'20px'}} 
                 onClick={ ()=>{setViewState('overview')}}>UP</button>
-            <button style={{width:'4em'}} 
+            <button style={{width:'4em',borderRadius:'20px'}} 
                 onClick={ ()=>{setViewState('overview')}}>RIGHT</button>
         </header>
         <article style={{flex:1}}>
@@ -107,9 +108,9 @@ function PageView (){
         </article>
         <footer style={{width:'100%',display:'flex',justifyContent:'space-between',
             padding:'0.666em'}}>
-            <button style={{width:'4em'}} 
+            <button style={{width:'4em',borderRadius:'16px'}} 
                 onClick={ ()=>{setViewState('overview')}}>LEFT</button>
-            <button style={{width:'4em'}} 
+            <button style={{width:'4em',borderRadius:'16px'}} 
                 onClick={ ()=>{setViewState('overview')}}>DOWN</button>
         </footer>
         {/* <button style={{width:'4em',    flex: 1,
@@ -194,6 +195,9 @@ return (
         <div className='cardTileBtn'>X</div>
         <div className='cardTileBtn'>X</div>
     </section>
+
+
+    <StoryGrid2/>
 
         </main>
         <footer style={{marginTop:'2em'}}>

@@ -1,26 +1,29 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
+function TokenFrame(props) {
+  const [isHovered, setIsHovered] = useState(false);
 
-class TokenFrame extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { isHovered: false, };
-    this.handleMouseEnter = this.handleMouseEnter.bind(this);
-    this.handleMouseLeave = this.handleMouseLeave.bind(this);
+  function handleMouseEnter() {
+    setIsHovered(true);
   }
-  handleMouseEnter() { this.setState({ isHovered: true }); }
-  handleMouseLeave() { this.setState({ isHovered: false }); }
-  render() {
-    return (
+
+  function handleMouseLeave() {
+    setIsHovered(false);
+  }
+
+  return (
+
+      <aside className='cardTileBtn'>
+        HELLO
       <button
-        className={this.state.isHovered ? 'btnHover' : ''}
-        onMouseEnter={this.handleMouseEnter}
-        onMouseLeave={this.handleMouseLeave}
+      className={isHovered ? 'btnHover' : ''}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
       >
-
+yyy
       </button>
-    );
-  }
+      </aside>
+  );
 }
 
 export default TokenFrame;

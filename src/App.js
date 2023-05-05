@@ -44,6 +44,7 @@ function App() {
             // return <D3View1 data={dataX}/>;
             // return <TicTacToe/>;
           } else if (viewIDX === "StoryGrid") {
+            // return <StoryGrid2/>;
             return <StoryGrid3/>;
           } else if (viewIDX === "SongPhrases") {
             return <SongPhrases/>;
