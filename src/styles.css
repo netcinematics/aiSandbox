@@ -127,3 +127,36 @@
   @media only screen and (min-width: 1500px) {
     .cardTileBtn{ width:18vw; height:18vw }  
   }
+
+
+
+  /* D3 chart */
+
+  .bar {
+    fill: steelblue;
+  }
+  
+  .bar:hover {
+    fill: brown;
+  }
+  
+  .axis-x path,
+  .axis-y path {
+    fill: none;
+    stroke: black;
+  }
+  
+  .axis-x text {
+    font-size: 14px;
+    font-weight: bold;
+    text-anchor: middle;
+  }
+  
+  .axis-y text {
+    font-size: 14px;
+    font-weight: bold;
+    text-anchor: end;
+  }
+  
+
+  /* D3 chart */

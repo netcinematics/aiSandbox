@@ -3,7 +3,9 @@ import MainView from './views/MainView';
 import StoryGrid2 from './views/StoryGrid2';
 import StoryGrid3 from './views/StoryGrid3';
 import SongPhrases from './views/SongPhrases';
-import TicTacToe from './views/TicTacToeView';
+import D3ViewFrame1 from './views/D3ViewFrame1';
+// import D3View1 from './views/D3View1';
+// import TicTacToe from './views/TicTacToeView';
 import AWordaGami1 from './views/aWordaGami1';
 // import Zoom from 'react-reveal/Zoom';
 import { useState } from 'react';
@@ -11,6 +13,16 @@ import { useState } from 'react';
 function App() {
   const [viewIDX, setViewIDX] = useState(''); 
   function CLICKview (e) { setViewIDX(e.target.innerText); }
+
+
+  const dataX = [
+    { label: 'Apples', value: 20 },
+    { label: 'Oranges', value: 14 },
+    { label: 'Bananas', value: 10 },
+    { label: 'Grapes', value: 8 },
+    { label: 'Pears', value: 6 }
+  ];
+  
 
   return (
     <div className="App" style={{display:'flex',flexDirection:'column',backgroundColor: 'black',
@@ -26,8 +38,11 @@ function App() {
         (() => { //SIMPLE-DYNAMIC-VIEW-DISPLAY: (design~innovation) // Routing - nah...
           if (viewIDX === "aWORDaGAMi") {
             return <AWordaGami1/>;
-          } else if (viewIDX === "TicTacToe") {
-            return <TicTacToe/>;
+          // } else if (viewIDX === "TicTacToe") {
+          } else if (viewIDX === "D3View1") {
+            return <D3ViewFrame1/>;
+            // return <D3View1 data={dataX}/>;
+            // return <TicTacToe/>;
           } else if (viewIDX === "StoryGrid") {
             return <StoryGrid3/>;
           } else if (viewIDX === "SongPhrases") {
@@ -44,7 +59,8 @@ function App() {
         <button style={{cursor:'pointer',borderRadius:'8px',margin:'0px 10px',boxShadow:'1px 1px 5px lime'}}
            onClick={CLICKview}>aWORDaGAMi</button>
         <button style={{cursor:'pointer',borderRadius:'8px',margin:'0px 10px',boxShadow:'1px 1px 5px yellow'}}
-           onClick={CLICKview}>TicTacToe</button>
+           onClick={CLICKview}>D3View1</button>
+           {/* onClick={CLICKview}>TicTacToe</button> */}
         <button style={{cursor:'pointer',borderRadius:'8px',margin:'0px 10px',boxShadow:'1px 1px 5px orange'}}
            onClick={CLICKview}>StoryGrid</button>
         <button style={{cursor:'pointer',borderRadius:'8px',margin:'0px 10px',boxShadow:'1px 1px 5px orange'}}
