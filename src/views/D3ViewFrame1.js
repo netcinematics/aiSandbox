@@ -43,7 +43,7 @@ export default function D3ViewFrame1 ({langData}) {
           if (viewIDX === "D3View1") {
             return <D3View1 data={dataX}/>;
           } else if (viewIDX === "D3View2") {
-            return <D3View2 data={dataX}/>;
+            return <D3View2/>;
           }
         })()
     }

@@ -130,7 +130,7 @@
 
 
 
-  /* D3 chart */
+  /* D3 bar chart */
 
   .bar {
     fill: steelblue;
@@ -159,4 +159,18 @@
   }
   
 
-  /* D3 chart */
+  /* D3 chart end */
+
+  /* D3 bubble chart */
+  .rangeBar {
+    stroke: white;
+    stroke-width: 3px;
+    stroke-linecap: round;
+  }
+  .rangeBarFilled {
+    stroke: #fa7070;
+    stroke-width: 3px;
+  }
+  
+
+  /* D3 bubble chart end */
