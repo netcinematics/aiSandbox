@@ -4,3 +4,5 @@ Artificial Intelligence Sandbox. Concept examples and data visualiztions for NLP
 ## libraries
 
 npm install d3
+
+LIVE: https://netcinematics.github.io/aiSandbox/
